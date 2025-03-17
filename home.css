@@ -1,9 +1,13 @@
+body{
+	text-align: center;
+}
 a:link, a:visited{
 	padding: 14px 25px;
 	background-color: orange;
 	display:inline-block;
 	border-radius: 15px;
 	color: teal;
+	text-decoration: none;
 }
 a:hover, a:active{
 	text-decoration: underline;
