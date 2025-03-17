@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>Table Example</title>
+	<style>
+		body{
+			background-color: orange;
+		}
+		table, tr, td, th{
+			text-align: center;
+			border: 1px solid black;
+		}
+		.links{
+			border: 0px;
+		}
+		#pink{
+			background-color:pink;
+		}
+		#second{
+			background-color:lightgreen;
+		}
+		.left{
+			text-align: left;
+		}
+		#big{
+			font-size: 40px;
+		}
+		#blue{
+			background-color: lightblue;
+		}
+		#white{
+			background-color:white;	
+		}
+		a{
+			color: white;
+		}
+		a:hover{
+			color: green;
+		}
+		a:visited{
+			color: magenta;
+		}
+	</style>
+</head>
+<body >
+<center>
+		<table width = "75%" class = "links">
+			<tr>
+				<td width = "25%" class = "links"> <a href = "index.html">Index</a> </td>
+				<td width = "25%" class = "links"> <a href = "vocab.html">Vocabulary</a> </td>
+				<td width = "25%" class = "links"> <a href = "myTable.html">My Table</a> </td>
+				<td width = "25%" class = "links"> <a href = "myDivs.html">My Divs</a> </td>
+			</tr>
+		</table>
+
+<h1>Here is Mrs. Zimmerman's awesome example of using a table</h1>
+<table width = "75%" >
+	<tr>
+		<th colspan = 4>Oh my gosh, this is a table header!!</th>
+	</tr>
+	<tr>
+		<td width = 25%><img src = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQgByBT5IiAT_a2x9pUVb4VMoOrlzHH7Jrzj-HB5jzHlR4lNLMS" width = "300px" alt = "dog" title="puppy"></td>
+		<td width = 25%><b>I love Bold Text!</b></td>
+		<td width = 25% id = "pink">This cell is colored pink</td>
+		<td width = 25%><u>Wow, underlined text!</u></td>
+	</tr>	
+	
+	<tr id = "second">
+		<td class = "left"><ul><li>This</li><li>is</li><li>an</li><li>unordered</li><li>list</li></ul></td>
+		<td class = "left"><ol><li>This</li><li>is</li><li>an</li><li>ordered</li><li>list</li></ol></td>
+		<td>An absolute <a href = "https://dominionstrategy.com/category/general-strategy/">link</a> to a website that relates to something that I like.</td>
+		<td id = "big">Big text is sweet!!</td>
+	</tr>
+	
+	<tr id = "blue" style = "background-color:lightblue">
+		<td><i>italicized text is special</td>
+		<td id = "white" style = "background-color:white;" class = "left">A white cell with an ordered list that uses Roman Numerals
+		<ol type = "I"><li>Whee!</li><li>I</li><li>like</li><li>Roman</li><li>Numerals</li><ol></td>
+		<td><u>I wouldn't underline too much text. Your viewer will think it is a hyerlink</u></td>
+		<td ><center><table  border = 1px><tr><td>Here's</td><td>a</td></tr><tr><td>nested</td><td>table</td></tr></table></td>
+	</tr>
+	<tr>
+		<td>Audio <br>
+			
+			Your browser does not support the audio element
+			</td>
+		<td>Youtube <br> 
+			<iframe width="200" height="150" src="https://www.youtube.com/embed/rthRXUmMh5E?si=hffaVZVN92-nonJB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</td>
+		<td>Video <br> 
+			<video width = "200" height ="150" controls src = "Raindrops.mp4" type = "video/mp4">
+			Your browser does not support video element</video></td>
+		<td>Map <br> 
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d781918.9514979526!2d-77.40015095312498!3d40.044823000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c63b680a615af7%3A0xc4a40c410bbab17f!2sSky%20Zone%20Trampoline%20Park!5e0!3m2!1sen!2sus!4v1707143367700!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</td>	
+	</tr>
+
+</table>
+
+
+</center>
+</body>
+</html>
