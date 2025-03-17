@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Example Form</title>
+</head>
+<body>
+<form>
+<p>This is where the form controls will appear</p>
+
+<fieldset>
+	<p>Text Area <textarea name ="comments" id = "comments" col = 20 rows = 4>
+	Enter comments here</textarea></p>
+
+	<p>Text Input<input type = "text" id = "textbox" name = "textInput" 
+	size = "15" maxlength = "30"></p>
+</fieldset>
+
+<fieldset>
+	<p> Radio Button 
+	<input type = "radio" id = "music" name = "genre" value = "rock">Rock
+	<input type = "radio" id = "music" name = "genre" value = "pop">Pop
+	<input type = "radio" id = "music" name = "genre" value = "rap">Rap</p>
+
+	<p> Check Box
+	<input type="checkbox" id="streaming" name="streaming" value="Hulu">Hulu
+	<input type="checkbox" id="streaming" name="streaming" value="Netflix">Netflix
+	<input type="checkbox" id="streaming" name="streaming" value="Disney+">Disney+
+	<input type="checkbox" id="streaming" name="streaming" value="Prime">Amazon Prime
+	</p>
+</fieldset>
+
+<fieldset>
+	<p>Drop Down List Box
+	<select name = "devices" id = "devices">
+		<option value ="phone">Phone</option>
+		<option value ="tablet">Tablet</option>
+		<option value ="computer">Computer</option>
+	</select>
+	</p>
+
+	<p>Multiple Select Box
+	<select name = "instrument" id="instrument" size="3" multiple="multiple">
+		<option value ="Piano">Piano</option>
+		<option value ="Guitar">Guitar</option>
+		<option value ="Drums">Drums</option>
+		<option value ="Flute">Flute</option>
+		<option value ="Cello">Cello</option>
+	</select>
+	</p>
+</fieldset>
+<fieldset>
+	<p>File Input Box <input type = "file" name = "song" id= "song"></p>
+	<p>Submit Button <input type="submit" name="myButton" id="myButton"></p>
+</fieldset>
+
+</form>
+</body>
+</html>
