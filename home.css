@@ -11,6 +11,6 @@ a:link, a:visited{
 }
 a:hover, a:active{
 	text-decoration: underline;
-	background-color: purple;
+	background-color: teal;
 	color: white;
 }
