@@ -5,7 +5,11 @@ body{
 table{
   text-align: center;
 }
-ul,li{
+ul{
   list-style-type:none;
   line-height: 2.5em;
+}
+.specials{
+  list-style-type:none;
+  line-height: 0;
 }
