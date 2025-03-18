@@ -5,3 +5,7 @@ body{
 table{
   text-align: center;
 }
+ul{
+  text-decoration:none;
+  line-height: 2.5em;
+}
