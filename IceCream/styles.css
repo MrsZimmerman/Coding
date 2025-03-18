@@ -25,7 +25,7 @@ ul{
 }
 .specials{
   list-style-type:none;
-  line-height: 0;
+  line-height: normal;
 }
 .links{
   border:0px;
