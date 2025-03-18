@@ -4,6 +4,7 @@ body{
 }
 table{
   text-align: center;
+  border: 1px solid black;
 }
 ul{
   list-style-type:none;
