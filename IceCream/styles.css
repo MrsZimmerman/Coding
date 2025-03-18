@@ -6,6 +6,6 @@ table{
   text-align: center;
 }
 ul,li{
-  text-decoration:none;
+  list-style-type:none;
   line-height: 2.5em;
 }
