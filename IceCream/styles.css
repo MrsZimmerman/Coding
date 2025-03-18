@@ -9,6 +9,7 @@ table,tr,th,td{
 ul{
   list-style-type:none;
   line-height: 2.5em;
+  float:left;
 }
 .specials{
   list-style-type:none;
