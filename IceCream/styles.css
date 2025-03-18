@@ -14,7 +14,7 @@ ul{
   list-style-type:none;
   line-height: 0;
 }
-#links{
+.links{
   border:0px;
 }
 a:link,a:visited{
