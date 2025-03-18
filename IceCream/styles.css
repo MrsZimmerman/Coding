@@ -9,9 +9,23 @@ table,tr,th,td{
 ul{
   list-style-type:none;
   line-height: 2.5em;
-  float:left;
 }
 .specials{
   list-style-type:none;
   line-height: 0;
+}
+#links{
+  border:0px;
+}
+a:link,a:visited{
+	padding: 14px 25px;
+	background-color: darkSeaGreen;
+	display: inline-block;
+	border-radius:15px;
+	color: FloralWhite;	
+}
+a:hover, a:active{
+	text-decoration:underline;
+	background-color:FloralWhite;
+	color:darkSeaGreen;
 }
