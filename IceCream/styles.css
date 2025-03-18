@@ -6,6 +6,17 @@ body{
   text-align: center;
   border: 1px solid black;
 }
+#LeftCone{
+	top: 50px;
+	left:200px;
+}
+#RightCone{
+	top: 50px;
+	right:200px;
+}
+#banner{
+	top: 50px;
+}
 ul{
   list-style-type:none;
   line-height: 2.5em;
