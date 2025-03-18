@@ -2,7 +2,7 @@ body{
   text-align: center;
   background-color:lightblue;
 }
-#main table tr th td{
+#menu{
   text-align: center;
   border: 1px solid black;
 }
