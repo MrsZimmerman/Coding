@@ -8,12 +8,12 @@ body{
 }
 #LeftCone{
 	position: absolute;
-	top: 50px;
+	top: 25px;
 	left:200px;
 }
 #RightCone{
 	position:absolute;
-	top: 50px;
+	top: 25px;
 	right:200px;
 }
 #banner{
