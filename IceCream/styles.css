@@ -19,7 +19,7 @@ body{
 #banner{
 	top: 50px;
 }
-ul{
+.items{
   list-style-type:none;
   line-height: 2.5em;
 }
