@@ -7,10 +7,60 @@
     <center><img src = "quad.png" alt = "Four Scoops" width = "75px" height = "100px" id = "LeftCone">
      <div id = "banner">
        <table width = "60%" style="text-align:center" class = "links">
-      <tr class = "links"><td class = "links"><a href = "index.html">Home</a></td>
+      <tr class = "links"><td class = "links"><a href = "index_1.html">Home</a></td>
       <td class = "links"><a href = "order.html">Order</a></td></tr>
     </table></center>   
       <h1>Mrs. Z's Ice Cream</h1>
     </div><img src = "quad.png" alt = "Four Scoops" width = "75px" height = "100px" id = "RightCone">
+	<form ><center>
+	<fieldset>	
+	<table  id="orderForm" >
+
+
+		<tr><td>Size</td><td>
+		<select name = "size" id="size" size="3">
+			<option value ="S">Small ($3)</option>
+			<option value ="M">Meduium ($4.50)</option>
+			<option value ="L">Large ($6)</option>
+		</select></td>
+		<td>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</td>
+		<td class = "contact">Name</td>
+		<td class = "contact"><input type="text" id = "nameInput" size = 30 name = "name"></td></tr>
+
+		<tr><td>Flavor</td><td>
+		<select name = "flavor" id="flavor" size="4" multiple="multiple">
+			<option value ="Chocolate">Chocolate</option>
+			<option value ="Vanilla">Vanilla</option>
+			<option value ="CookieDough">Cookie Dough</option>
+			<option value ="Mint">Mint Chocolate Chip</option>
+		</select></td>
+		<td>&nbsp; &nbsp;</td>
+		<td class = "contact">Email Address</td>
+		<td class = "contact"><input type="text" id = "emailInput" size = 30 name = "email"></td></tr>
+
+		<tr><td>Toppings <br>($.50 each)</td><td>
+		<select name = "topping" id="topping" size="4" multiple="multiple">
+			<option value ="Sprinkles">Sprinkles</option>
+			<option value ="Hot Fudge">Hot Fudge</option>
+			<option value ="CookieCrumbles">Cookie Crumbles</option>
+			<option value ="Cherries">Cherries</option>
+		</select></td>
+		<td>&nbsp; &nbsp;</td>
+		<td class = "details" rowspan = 2>Order Details</td>
+		<td class = "contact" rowspan = 2><textarea id = "commentInput" cols = 30 rows = 7 name = "comment"></textarea></td></tr>
+
+		<tr><td>Specials</td><td>
+		<select name = "Specials" id="Specials" size="3">
+			<option value ="banana">Banana Split ($7)</option>
+			<option value ="Neopolitan">Neopolitan ($5)</option>
+			<option value ="Grasshopper">Grasshopper ($4)</option>
+		</select></td>
+		</tr>
+		
+		<tr style = "text-align: center;"><td colspan = 5><input type = "submit"></td></tr>
+	</table>	
+	</fieldset></center>
+	</form>	
+
   </body>
 </html>
